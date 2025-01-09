@@ -28,10 +28,9 @@
 
 .characterWrapper {
    position: fixed;
-   top: 25px;
+   top: 45px;
    right: 0;
    height: 90%;
-   border: solid 1px green;
 }
 
 .controlColumn {
