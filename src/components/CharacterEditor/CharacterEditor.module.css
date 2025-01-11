@@ -4,9 +4,6 @@
    position: relative;
 }
 
-.maxWidthWrapper {
-}
-
 .header {
    width: 65%;
    padding-bottom: 64px;
@@ -35,4 +32,34 @@
 
 .controlColumn {
    width: 65%;
+}
+
+@media (max-width: 800px) {
+   .characterEditor {
+      padding-top: 50px;
+   }
+   .title {
+      font-size: 2rem;
+   }
+   .description {
+      font-size: 1rem;
+   }
+   .header {
+      width: 100%;
+   }
+   .characterWrapper {
+      position: static;
+      top: 45px;
+      right: 0;
+      height: 90%;
+   }
+
+   .controlColumn {
+      position: absolute;
+      bottom: 150px;
+      display: block;
+      white-space: nowrap;
+      overflow-x: auto;
+      width: 100%;
+   }
 }

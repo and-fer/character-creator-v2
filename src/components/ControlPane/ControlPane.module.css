@@ -13,6 +13,10 @@
    white-space: nowrap;
    overflow-x: auto;
 }
+.title,
+.metadata {
+   padding-bottom: 25px;
+}
 
 .title {
    margin: 0;
@@ -25,4 +29,12 @@
    font-size: 0.875rem;
    font-weight: 400;
    color: hsl(0deg, 0%, 30%);
+}
+
+@media (max-width: 800px) {
+   .controlPane {
+      display: inline-block;
+      max-width: 300px;
+      margin-left: 25px;
+   }
 }
